@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		58810AC91EC79CAE00895853 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58810AC81EC79CAE00895853 /* main.swift */; };
+		58810AD21EC79F4800895853 /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58810AD11EC79F4800895853 /* GameObject.swift */; };
+		58810AD41EC79F9600895853 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58810AD31EC79F9600895853 /* Location.swift */; };
+		58810AD61EC7A06100895853 /* Tank World.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58810AD51EC7A06100895853 /* Tank World.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		58810AC51EC79CAE00895853 /* Tankland */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Tankland; sourceTree = BUILT_PRODUCTS_DIR; };
 		58810AC81EC79CAE00895853 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		58810AD11EC79F4800895853 /* GameObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameObject.swift; sourceTree = "<group>"; };
+		58810AD31EC79F9600895853 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		58810AD51EC7A06100895853 /* Tank World.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Tank World.swift"; path = "../../Tank World.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				58810AC81EC79CAE00895853 /* main.swift */,
+				58810AD31EC79F9600895853 /* Location.swift */,
+				58810AD51EC7A06100895853 /* Tank World.swift */,
+				58810AD11EC79F4800895853 /* GameObject.swift */,
 			);
 			path = Tankland;
 			sourceTree = "<group>";
@@ -121,6 +130,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				58810AC91EC79CAE00895853 /* main.swift in Sources */,
+				58810AD61EC7A06100895853 /* Tank World.swift in Sources */,
+				58810AD41EC79F9600895853 /* Location.swift in Sources */,
+				58810AD21EC79F4800895853 /* GameObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
